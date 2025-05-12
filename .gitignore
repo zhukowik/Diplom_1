@@ -1,4 +1,4 @@
-### PyCharm+iml template
+### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -196,19 +196,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+
 
 # Translations
 *.mo
@@ -265,8 +253,10 @@ ipython_config.py
 #pdm.lock
 #   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
 #   in version control.
-#   https://pdm.fming.dev/#use-with-ide
+#   https://pdm.fming.dev/latest/usage/project/#working-with-version-control
 .pdm.toml
+.pdm-python
+.pdm-build/
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
@@ -397,3 +387,6 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+!/htmlcov/
+!/htmlcov/
+!/htmlcov/coverage_html_cb_497bf287.js

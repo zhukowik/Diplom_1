@@ -23,6 +23,3 @@ def mock_ingredient():
     mock.get_type.return_value = INGREDIENT_TYPE_FILLING
     return mock
 
-@pytest.fixture()
-def burger():
-    return Burger()
